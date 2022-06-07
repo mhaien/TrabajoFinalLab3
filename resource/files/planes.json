@@ -1,0 +1,16 @@
+[
+  {
+    "fuelCapacity": 1,
+    "costByKM": 2,
+    "maxQtyPassenger": 45,
+    "maxSpeed": 250,
+    "propulsionType": "MOTOR_A_HELICE"
+  },
+  {
+    "fuelCapacity": 1,
+    "costByKM": 2,
+    "maxQtyPassenger": 45,
+    "maxSpeed": 250,
+    "propulsionType": "MOTOR_A_HELICE"
+  }
+]
