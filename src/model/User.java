@@ -1,14 +1,14 @@
 package model;
 
 
-public class Person {
+public class User {
 
     private String name;
     private String lastName;
     private String DNI;
     private Integer age;
 
-    public Person(String name, String lastName, String DNI, Integer age) {
+    public User(String name, String lastName, String DNI, Integer age) {
         this.name = name;
         this.lastName = lastName;
         this.DNI = DNI;
@@ -45,5 +45,10 @@ public class Person {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return getName() + " " + getLastName();
     }
 }
